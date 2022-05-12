@@ -1,123 +1,110 @@
-main
-{
-    background-color: #f1eaea;
-    height: 55vh;
-    padding-left: 30%;
-    padding-top: 10%;
-    line-height: 17px;
-    border: 0;
-}
-main h4
-{
-    font-family: sans-serif;
-    font-size: medium;
-    font-weight: 100;
-}
-.logo h1
-{
-    color: rgb(17, 95, 204);
-    font-family: Arial, Helvetica, sans-serif;   
-    font-size: 3em;
-}
-form
-{
-    width: 300px;
-    height: 280px;
-    background: white;
-    position: absolute;
-    top: 100px;
-    left: 810px;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 1px 5px 10px #b3b0b0;
-}
-form input
-{
-    width: 300px;
-    height: 35px;
-    border: 1px solid rgb(18, 111, 241);
-    border-radius: 5px;
-    font-size: x-small;
-    margin-top: 14px;
-    background-color: white;
-}
-::placeholder
-{
-    font-family: Arial;
-    background-color: rgb(231, 237, 245);
-    border-radius: 3px;
-    font-size: x-small;
-}
-.btn
-{
-    width: 300px;
-    height: 40px;
-    background: rgb(17, 95, 204);
-    border: none;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-.btn a
-{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: medium;
-}
-form p a
-{
-    color: rgb(18, 111, 241);
-    text-decoration: none;
-    padding-left: 75px;
-    font-family: Arial;
-    background-color: white;
-    display: flex;
-}
-.btnn
-{
-    width: 160px;
-    height: 40px;
-    background: rgb(34, 150, 34);
-    border: none;
-    margin-top: 15px;
-    font-size: 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 72px;
-}
-.btnn a
-{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-main span p
-{
-    position: absolute;
-    top: 410px;
-    right: 440px;
-    font-family: Arial;
-    font-size: small;
-    font-weight: 400;
-}
-main span p a
-{
-    text-decoration: none;
-    font-weight: bold;
-    color: #000000;
-}
-footer
-{
-    padding-top: 30px;
-    padding-left: 470px;
-    letter-spacing: 0.5px;
-}
-footer a
-{
-    color: #000000;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: x-small;
-    font-weight: lighter;
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+body {
+  background: #eff2f5;
+}
+
+.logo h1 {
+  color: rgb(17, 95, 204);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}
+.flex-container {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.form-wrapper {
+  background: #fff;
+  /* padding: 15px; */
+  flex-basis: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  padding-top: 40px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 5px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+.btn {
+  width: 300px;
+  height: 40px;
+  background: rgb(17, 95, 204);
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
+form p a {
+  color: rgb(18, 111, 241);
+  text-decoration: none;
+  padding-left: 75px;
+  font-family: Arial;
+  background-color: white;
+  display: flex;
+}
+.btnn {
+  width: 160px;
+  height: 40px;
+  background: rgb(34, 150, 34);
+  border: none;
+  margin-top: 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 72px;
+}
+.btnn a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+main span p {
+  position: absolute;
+  top: 410px;
+  right: 440px;
+  font-family: Arial;
+  font-size: small;
+  font-weight: 400;
+}
+main span p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+footer {
+  padding-top: 30px;
+  padding-left: 470px;
+  letter-spacing: 0.5px;
+}
+footer a {
+  color: #000000;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: x-small;
+  font-weight: lighter;
+}
