@@ -116,15 +116,15 @@ main span p a {
   padding-left: 40px;
 }
 footer {
-  padding-top: 160px;
-  padding-left: 400px;
-  letter-spacing: 1px;
+  position: absolute;
+  top: 70vh;
+  left: 450px;
 }
 footer ul{
   padding-top: 12px;
 }
 footer ul li{
-  color: white;
+    list-style: none;
 }
 footer a {
   color: #000000;
